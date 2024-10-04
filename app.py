@@ -6,7 +6,9 @@ app = Flask(__name__)
 
 # Connect to MongoDB
 #client = MongoClient("mongodb://localhost:27017/")
-client = MongoClient("mongodb://mongo:27017/")
+#client = MongoClient("mongodb://mongo:27017/")
+client = MongoClient("mongodb://mongo-service:27017/")
+
 db = client.todo_db  # Create database
 todos_collection = db.todos  # Create collection
 
