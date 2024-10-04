@@ -1,0 +1,7 @@
+# Ignore Python virtual environment directory
+eks_env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
